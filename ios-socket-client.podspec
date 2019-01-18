@@ -1,23 +1,20 @@
 Pod::Spec.new do |s|
-  s.name         = "Socket.IO-Client-Swift"
+  s.name         = "ios-socket-client"
   s.module_name  = "SocketIO"
-  s.version      = "9.0.1"
+  s.version      = "9.0.2"
   s.summary      = "Socket.IO-client for iOS and OS X"
   s.description  = <<-DESC
                    Socket.IO-client for iOS and OS X.
                    Supports ws/wss/polling connections and binary.
                    For socket.io 1.0+ and Swift.
                    DESC
-  s.homepage     = "https://github.com/socketio/socket.io-client-swift"
+  s.homepage     = "https://github.com/salemove/ios-socket-client"
   s.license      = { :type => 'MIT' }
-  s.author       = { "Erik" => "nuclear.ace@gmail.com" }
+  s.author       = { 'Salemove' => 'support@salemove.com' }
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '9.0'
-  s.source       = { :git => "https://github.com/socketio/socket.io-client-swift.git", :tag => 'v9.0.1' }
+  s.source       = { :git => "https://github.com/salemove/ios-socket-client.git", :tag => 'v9.0.2' }
   s.source_files  = "Source/**/*.swift"
   s.requires_arc = true
   s.swift_version = "4.2"
-
-  # s.dependency 'Starscream', '~> 0.9' # currently this repo includes Starscream swift files
+  
 end

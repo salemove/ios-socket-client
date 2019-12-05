@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ios-socket-client"
   s.module_name  = "SocketIO"
-  s.version      = "9.0.2"
+  s.version      = "9.1.0"
   s.summary      = "Socket.IO-client for iOS and OS X"
   s.description  = <<-DESC
                    Socket.IO-client for iOS and OS X.
@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.author       = { 'Salemove' => 'support@salemove.com' }
   s.ios.deployment_target = '8.0'
-  s.source       = { :git => "https://github.com/salemove/ios-socket-client.git", :tag => 'v9.0.2' }
+  s.source       = { :git => "https://github.com/salemove/ios-socket-client.git", :tag => 'v9.1.0' }
   s.source_files  = "Source/**/*.swift"
   s.requires_arc = true
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
   
 end

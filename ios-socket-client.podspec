@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.author       = { 'Salemove' => 'support@salemove.com' }
   s.ios.deployment_target = '8.0'
-  s.source       = { :git => "https://github.com/salemove/ios-socket-client.git", :tag => 'v9.1.0' }
+  s.source       = { :git => "https://github.com/salemove/ios-socket-client.git", :tag => 'v9.2.0' }
   s.source_files  = "Source/**/*.swift"
   s.requires_arc = true
   s.swift_version = "5.0"
